@@ -1,28 +1,37 @@
+<script>
+  import Hero from './components/Hero.vue'
+  import About from './components/About.vue'
+  import Features from './components/Features.vue'
+  import Pricing from './components/Pricing.vue'
+  import Testimonial from './components/Testimonial.vue'
+  import Download from './components/Download.vue'
+  import Footer from './components/Footer.vue'
+  export default {
+    name: 'App',
+    components: {
+      Hero,
+      About,
+      Features,
+      Pricing,
+      Testimonial,
+      Download,
+      Footer,
+    }
+  }
+</script>
+
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Hero/>
+    <About/>
+    <Features/>
+    <Pricing/>
+    <Testimonial/>
+    <Download/>
+    <Footer/>
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import url('./assets/css/zeitplan.css');
 </style>

@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+.zp_hero{
+    background: linear-gradient(180deg, rgba(255, 244, 242, 0.4) 0%, #FFF0EE 100%);
+}
+
+.zp_hero .zp_hero_head{
+    padding: 22px;
+}
+
+.zp_hero .zp_hero_head .navbar{
+    background: #fff;
+    padding: 14px 8px;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.zp_hero .zp_hero_head .navbar .navbar-menu .navbar-end .navbar-item, .navbar-link {
+    color: rgba(0, 0, 0, 0.5) !important;
+    padding: 0.5rem 0.75rem;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+.zp_hero .zp_hero_head .navbar .navbar-menu .navbar-end a.navbar-item.is-active, .navbar-link.is-active {
+    color: #FE5E44 !important;
+    font-weight: 600;
+}
+
+.button.zp_navbtn{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 16px;
+    background: #FE5E44;
+    box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+}
+.button.zp_navbtn:hover{
+    color: #fff;
+}
+
+.zp_herocontent_wrapper{
+    display: grid;
+    gap: 34px;
+}
+
+.zp_headline{
+    font-family: 'Patua One';
+    font-size: 48px;
+    line-height: 60px;
+    color: #0E144A;
+    margin-bottom: 0;
+}
+
+.zp_tagline{
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    color: #6F6F6F;
+    line-height: 34px;
+}
+
+.buttons.zp_herocta .zp_btncta:nth-child(1){
+    background: #FE5E44;
+    color: #fff;
+    box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    padding: 22px 54px; 
+}
+.buttons.zp_herocta .zp_btncta:nth-child(2){
+    background: rgba(254, 94, 68, 0.1);
+    border: 1px solid rgba(254, 94, 68, 0.2);
+    color: #FE5E44;
+    border-radius: 5px;
+    border: 0;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    padding: 22px 54px;
+}
+
+.box.zp_herotestibox{
+    background: #FFFFFF;
+    box-shadow: none;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.box.zp_herotestibox .zp_herotesti_wrapper{
+    display: grid;
+    gap: 18px;
+}
+
+.zp_testidescription{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #0E144A;
+}
+
+.zp_testimonial_name{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.zp_testimonial_rank{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(14, 20, 74, 0.6);
+}
+
+.zp_testimonial_pagination{
+    display: flex;
+    align-items: center;
+}
+
+.zp_prev_btn,.zp_next_btn{
+    cursor: pointer;
+}
+
+.section.zp_section_about{
+    background: #fff;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+.zp_about_title{
+    font-family: 'Patua One';
+    font-size: 38px;
+    line-height: 52px;
+    color: #0E144A;
+    margin-bottom: 18px;
+}
+
+.zp_about_subtitle{
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(14, 20, 74, 0.6);
+}
+
+.zp_countname{
+    font-family: 'Inter';
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(12, 27, 77, 0.6);
+    font-size: 12px;
+}
+
+.zp_counttotal{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    color: #0C1B4D;
+}
+
+.box.zp_boxabout{
+    background: rgba(254, 94, 68, 0.05);
+    border-radius: 6px;
+    box-shadow: none;
+    padding: 40px;
+}
+
+.box.zp_boxabout .zp_boxabout_header{
+    display: flex;
+    align-items: center;
+}
+
+.zp_boxabout_name{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    margin-left: 18px;
+}
+
+.zp_boxabout_description{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    line-height: 28px;
+    margin-top: 18px;
+}
+
+.section.zp_section_features{
+    background: #fff;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+.zp_features_title{
+    font-family: 'Patua One';
+    font-size: 38px;
+    line-height: 52px;
+    color: #0E144A;
+}
+
+.zp_features_subtitle{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(14, 20, 74, 0.6);
+    margin-top: 12px;
+}
+
+.box.zp_features_box{
+    padding: 0;
+    box-shadow: none;
+    margin-top: 22px;
+}
+
+.zp_features_name{
+    font-family: 'Patua One';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0E144A;
+    margin-top: 4px;
+}
+
+.zp_features_description{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 8px;
+    color: rgba(14, 20, 74, 0.6);
+}
+
+.section.zp_section_pricing{
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    background: rgba(254, 94, 68, 0.05);
+}
+
+.zp_pricing_title{
+    font-family: 'Patua One';
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    color: #0E144A;
+}
+
+.zp_pricing_subtitle{
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(14, 20, 74, 0.6);
+    margin-top: 14px;
+}
+
+.columns.zp_pricing_columns{
+    margin: 52px 0;
+}
+
+.box.zp_pricingbox{
+    background: #FFFFFF;
+    box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+    border-radius: 10px 0px 0px 10px;
+    padding: 47px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.zp_pricinglevel{
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #FE5E44;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.zp_pricingclass{
+    font-family: 'Patua One';
+    font-size: 38px;
+    line-height: 52px;
+    color: #0C0E2B;
+    margin-bottom: 5px;
+}
+
+.zp_pricingdescription{
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(12, 14, 43, 0.6);
+}
+
+.zp_pricinglist{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.zp_pricingbenefit{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    color: #0C0E2B;
+    margin-left: 15px;
+    text-shadow: 0px 4px 8px rgba(12, 14, 43, 0.2);
+}
+
+.zp_pricingbtns{
+    width: 100%;
+}
+
+.zp_pricingwarn{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 20, 74, 0.6);
+    margin-top: 48px;
+}
+.zp_pricingwarn span{
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(14, 20, 74, 0.6);
+}
+
+.zp_download_wrapper{
+    display: grid;
+    gap: 20px;
+}
+
+.zp_download_title{
+    font-family: 'Patua One';
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    color: #0E144A;
+}
+
+.zp_download_subtitle{
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(14, 20, 74, 0.6);
+}
+
+.zp_download_btn img{
+    margin: 0 8px;
+}
+
+.section.zp_section_testimonial{
+    background: rgba(254, 94, 68, 0.1);
+}
+
+.columns.zp_testimonial_columns{
+    margin: 60px 0;
+}
+
+.footer.zp_section_footer{
+    padding: 100px;
+}
+
+.zp_footer_description{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 20, 74, 0.6);
+    line-height: 26px;
+}
+
+.zp_footer_copyright{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: rgba(14, 20, 74, 0.6);
+    text-transform: uppercase;
+}
+
+.zp_footer_title{
+    font-family: 'Patua One';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.zp_footer_sitelink .zp_footer_links{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    color: rgba(12, 27, 77, 0.6);
+}
+
+.zp_stayconnected{
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(12, 27, 77, 0.6);
+    margin-bottom: 20px;
+}
+
+.zp_footer_socialmedia{
+    display: flex;
+    align-items: center;
+}
+
+.zp_footer_socialmedia div{
+    margin-right: 10px;
+}
+
+.zp_footer_columnabout{
+    display: grid;
+    gap: 16px;
+}
+
+.btn-to-top {
+    width: 45px;
+    height: 45px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background: #ff7963;
+    box-shadow: 0px 20px 30px rgb(255 86 58 / 15%);
+    cursor: pointer;
+}
+/* Desktop */
+@media screen and (max-width: 1023px){
+    .zp_hero .zp_hero_head .navbar-menu {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+/* Mobile */
+@media (max-width:768px) {
+    br{
+        display: none
+    }
+
+    .zp_hero .zp_hero_head .navbar .navbar-menu .navbar-end .navbar-item, .navbar-link {
+        margin-left: 0;
+    }
+
+    a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active{
+        background: transparent !important;
+    }
+
+    .buttons .button:not(:last-child):not(.is-fullwidth){
+        margin-right: 0 !important;
+    }
+
+    .button.zp_navbtn{
+        display: flex;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .zp_btncta{
+        display: flex;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .footer.zp_section_footer{
+        padding: 3rem;
+    }
+}
